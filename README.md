@@ -10,10 +10,10 @@ El proyecto integra datos económicos, sociales y textuales para modelar el pote
 
 Los modelos implementados incluyen:
 
-SARIMAX – para modelar dependencias temporales lineales con variables externas.
-Prophet – para descomponer tendencia y estacionalidad incorporando variables exógenas.
-XGBoost – basado en árboles de decisión y boosting para regresión multivariada.
-LSTM (red neuronal) – para capturar dependencias de largo plazo en series secuenciales.
+- SARIMAX: para modelar dependencias temporales lineales con variables externas.
+- Prophet: para descomponer tendencia y estacionalidad incorporando variables exógenas.
+- XGBoost: basado en árboles de decisión y boosting para regresión multivariada.
+- LSTM (red neuronal): para capturar dependencias de largo plazo en series secuenciales.
 
 Cada modelo se valida mediante esquemas de walk-forward o ventana expansiva, según su arquitectura.
 El desempeño se evalúa con métricas MSE, MAE, RMSE y MAPE, tanto a nivel global como por artista.
