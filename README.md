@@ -11,11 +11,8 @@ El proyecto integra datos económicos, sociales y textuales para modelar el pote
 Los modelos implementados incluyen:
 
 SARIMAX – para modelar dependencias temporales lineales con variables externas.
-
 Prophet – para descomponer tendencia y estacionalidad incorporando variables exógenas.
-
 XGBoost – basado en árboles de decisión y boosting para regresión multivariada.
-
 LSTM (red neuronal) – para capturar dependencias de largo plazo en series secuenciales.
 
 Cada modelo se valida mediante esquemas de walk-forward o ventana expansiva, según su arquitectura.
@@ -24,16 +21,13 @@ El desempeño se evalúa con métricas MSE, MAE, RMSE y MAPE, tanto a nivel glob
 📊 Datos
 
 El dataset incluye regalías mensuales de 15 artistas a lo largo de un período de 3 a 4 años, enriquecidas con variables exógenas tales como:
-
 Seguidores en Instagram y Twitter
-
 Lanzamientos de canciones
-
 Sentimiento extraído de comentarios en redes sociales
-
 Métricas de menciones e interacción
 
 📁 Estructura del repositorio
+```text
 ├── datasets/            # Datasets preprocesados
 ├── notebooks/           # Desarrollo y evaluación de modelos (SARIMAX, Prophet, XGBoost, LSTM), análisis de sentimiento y grafos
 ├── results/             # Métricas y resultados consolidados para Power BI
