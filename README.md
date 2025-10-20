@@ -34,11 +34,9 @@ Sentimiento extraído de comentarios en redes sociales
 Métricas de menciones e interacción
 
 📁 Estructura del repositorio
-├── data/                # Datos de ejemplo y datasets preprocesados
-├── notebooks/           # Desarrollo y evaluación de modelos (SARIMAX, Prophet, XGBoost, LSTM)
-├── figures/             # Visualizaciones y pronósticos por artista
+├── datasets/            # Datasets preprocesados
+├── notebooks/           # Desarrollo y evaluación de modelos (SARIMAX, Prophet, XGBoost, LSTM), análisis de sentimiento y grafos
 ├── results/             # Métricas y resultados consolidados para Power BI
-├── thesis_code/         # Scripts principales de predicción y funciones auxiliares
 └── README.md            # Descripción del proyecto (este archivo)
 
 ⚙️ Tecnologías utilizadas
