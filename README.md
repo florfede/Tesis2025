@@ -26,12 +26,6 @@ Lanzamientos de canciones
 Sentimiento extraído de comentarios en redes sociales
 Métricas de menciones e interacción
 
-📁 Estructura del repositorio
-```text
-├── datasets/            # Datasets preprocesados
-├── notebooks/           # Desarrollo y evaluación de modelos (SARIMAX, Prophet, XGBoost, LSTM), análisis de sentimiento y grafos
-├── results/             # Métricas y resultados consolidados para Power BI
-└── README.md            # Descripción del proyecto (este archivo)
 
 ⚙️ Tecnologías utilizadas
 
@@ -40,3 +34,10 @@ Python • Pandas • NumPy • Scikit-learn • XGBoost • TensorFlow • Prop
 📈 Resultados
 
 Los resultados finales se consolidan en un dashboard en Power BI, que muestra las predicciones, las regalías históricas y la comparación de métricas entre modelos para cada artista.
+
+📁 Estructura del repositorio
+```text
+├── datasets/            # Datasets preprocesados
+├── notebooks/           # Desarrollo y evaluación de modelos (SARIMAX, Prophet, XGBoost, LSTM), análisis de sentimiento y grafos
+├── results/             # Métricas y resultados consolidados para Power BI
+└── README.md            # Descripción del proyecto (este archivo)
