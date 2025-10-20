@@ -1,4 +1,4 @@
-🎓 Predicción de Regalías Musicales – Tesis de Maestría
+##🎓 Predicción del Éxito de Nuevos Artistas en la Industria de la Música – Tesis de Maestría
 
 Este repositorio contiene el código completo y los experimentos desarrollados en el marco de mi Tesis de Maestría en Ciencia de Datos, cuyo objetivo es predecir las regalías futuras de artistas musicales emergentes mediante el uso de modelos de series temporales multivariadas y análisis de sentimiento aplicado a redes sociales.
 
